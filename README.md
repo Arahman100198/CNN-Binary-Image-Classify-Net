@@ -11,6 +11,8 @@ The model architecture consists of several layers:
 
 3- Batch Normalization to normalize outputs and accelerate training.
 
+4- Replaces the Flatten layer by reducing each feature map to a single value, minimizing overfitting and reducing model complexity.
+
 4- Dropout layers to randomly drop connections between layers and prevent overfitting.
 
 5- Fully Connected layers for final image classification.
